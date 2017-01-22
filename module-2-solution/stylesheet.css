@@ -16,6 +16,7 @@ p {
   color: white;
   margin-right: auto;
   margin-left: auto;
+  padding-top: 30px;
 }
 
 .toRight{
@@ -25,7 +26,7 @@ p {
     display: inline-block;
     clear: both;
     margin-top: 16px;
-    margin-right: 23px;
+    margin-right: 22px;
     border: 2px solid black;
 }
 
