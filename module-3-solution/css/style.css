@@ -4,9 +4,6 @@ body {
 	font-family: Helvetica, sans-serif;
 }
 /** HEADER**/
-#container-box{
-color: black;
-}
 #header-nav{
 	background-color: gray;
 	border-radius:0;
@@ -24,9 +21,11 @@ color: black;
 hr{
 	border-color: black;
 }
-#collapse-menu{
-	border-top: 0;
-	border-bottom: 0;
+.nav-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+  }
+.nav-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #000000;
 }
 #nav-list{
 		background-color: white;
@@ -34,14 +33,19 @@ hr{
 		margin-bottom:  0;
 		padding: 0;
 		text-align: center;
+		font-family: Arial black;
+		font: bold;
 	}
-.navbar>.container .navbar-brand{
-	margin-left: 4px;
-	margin-top: 8px;
-	margin-bottom: 16px; 
-	background-color: gray;
-}
 /**END HEADER**/
 h2, h3{
 font-family: Arial black;	
+}
+
+section{
+	border: 1px color;
+	background-color: gray;
+	width: 95%;
+	overflow: auto;
+	margin: auto;
+	padding:auto;
 }
