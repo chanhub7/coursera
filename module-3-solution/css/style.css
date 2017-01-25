@@ -1,0 +1,47 @@
+body {
+	font-size: 20px;
+	color: black;
+	font-family: Helvetica, sans-serif;
+}
+/** HEADER**/
+#container-box{
+color: black;
+}
+#header-nav{
+	background-color: gray;
+	border-radius:0;
+	border:0;
+	border-color: black;
+}
+.navbar-brand h1{
+	font-family:Arial black; 
+	color:black;
+	font-size: 1.5em;
+	margin-top:0;
+	margin-bottom: 0;
+	line-height: .90;
+}
+hr{
+	border-color: black;
+}
+#collapse-menu{
+	border-top: 0;
+	border-bottom: 0;
+}
+#nav-list{
+		background-color: white;
+		margin-top: auto;
+		margin-bottom:  0;
+		padding: 0;
+		text-align: center;
+	}
+.navbar>.container .navbar-brand{
+	margin-left: 4px;
+	margin-top: 8px;
+	margin-bottom: 16px; 
+	background-color: gray;
+}
+/**END HEADER**/
+h2, h3{
+font-family: Arial black;	
+}
